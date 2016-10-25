@@ -1,0 +1,17 @@
+{
+    "name": "ClickRadios2",
+    "description": "New website for Click Radios",
+    "require": {
+        "silex/silex": "*",
+        "twig/twig": "*",
+        "illuminate/database": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClickRadios\\": "src"
+        }
+    }
+}
